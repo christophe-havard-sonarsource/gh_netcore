@@ -1,0 +1,9 @@
+V
+M/Users/christophehavard/Sonar/surfrider_fillbidatabase/DictionaryExtension.csutf-8I
+@/Users/christophehavard/Sonar/surfrider_fillbidatabase/Helper.csutf-8L
+C/Users/christophehavard/Sonar/surfrider_fillbidatabase/IDatabase.csutf-8R
+I/Users/christophehavard/Sonar/surfrider_fillbidatabase/OperationStatus.csutf-8R
+I/Users/christophehavard/Sonar/surfrider_fillbidatabase/PostgreDatabase.csutf-8V
+M/Users/christophehavard/Sonar/surfrider_fillbidatabase/PowerBIFillDatabase.csutf-8à
+}/Users/christophehavard/Sonar/surfrider_fillbidatabase/obj/Debug/netcoreapp3.0/.NETCoreApp,Version=v3.0.AssemblyAttributes.csutf-8Å
+v/Users/christophehavard/Sonar/surfrider_fillbidatabase/obj/Debug/netcoreapp3.0/Surfrider-RecurringJobs.AssemblyInfo.csutf-8

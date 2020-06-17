@@ -25,5 +25,9 @@ public static class Helper {
             // else
                 return Environment.GetEnvironmentVariable("postgre_connection");
         }
+        // I add another useless code line
+        public static void DoNothing(){
+            Environment.GetEnvironmentVariable("postgre_connection");
+        }
 }
 }

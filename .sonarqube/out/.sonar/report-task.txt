@@ -2,5 +2,5 @@ projectKey=netCoreExample
 serverUrl=http://localhost:9000
 serverVersion=8.4.1.35646
 dashboardUrl=http://localhost:9000/dashboard?id=netCoreExample
-ceTaskId=AXOe8h9tkIOuZ-FgQN1G
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXOe8h9tkIOuZ-FgQN1G
+ceTaskId=AXOe9KtfkIOuZ-FgQN1H
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXOe9KtfkIOuZ-FgQN1H

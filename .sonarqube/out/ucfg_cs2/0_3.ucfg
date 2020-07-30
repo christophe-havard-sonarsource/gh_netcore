@@ -1,0 +1,19 @@
+
+&Surfrider.Helper.GetConnectionString()B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (0"0*”
+0¸
+µ
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (O
+%0string"1System.Environment.GetEnvironmentVariable(string)*"
+System.Environment*
+postgre_connection"T
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (P
+
+%0string*^
+1"Y
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (	
+implicit returnB"
+Surfrider.Helper

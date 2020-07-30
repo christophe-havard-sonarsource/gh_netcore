@@ -1,0 +1,63 @@
+
+”Surfrider.Common.Extensions.DictionaryExtensions.GetOrDefaultCaseInsensitive<TValue>(System.Collections.Generic.IDictionary<string, TValue>, string)O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs% %(8"0*Ù
+0Ž
+‹
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs(* ((@
+%0string"string.ToUpperInvariant()*
+
+keystringº·
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs( ((J
+
+%1bool"RSystem.Collections.Generic.IDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*D
+B
+
+dictionary4System.Collections.Generic.IDictionary<TKey, TValue>*
+
+%0string*
+
+objTValue2TryGetValue(TKey, out TValue)*
+1
+2*û
+1x
+v
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs(M ((P
+%3TValue"__id*
+
+objTValuew
+u
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs(M ((P
+%2TValue"__id*
+
+%3TValue*
+3*â
+2g
+e
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs(S ((b
+%4"__id*
+""o
+m
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs(S ((b
+%2TValue"__id*
+
+%4*
+3*f
+3"a
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs( ((c
+
+%2TValue*k
+4"f
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs) )(	
+implicit return:B
+
+dictionary4System.Collections.Generic.IDictionary<TKey, TValue>:
+keystringB4"2
+0Surfrider.Common.Extensions.DictionaryExtensions

@@ -20,10 +20,7 @@ public static class Helper {
         }
         public static string GetConnectionString()
         {
-            // if (Environment.GetEnvironmentVariable("AZURE_FUNCTIONS_ENVIRONMENT") != "Local")
-            //     return GetKeyVaultConnectionString("db-plastico-dev-connectionstring");
-            // else
-                return Environment.GetEnvironmentVariable("postgre_connection");
+            return "Host=myserver.azure.com;Username=michel;Password='dominique'";
         }
         // I add another useless code line
         public static void DoNothing(){

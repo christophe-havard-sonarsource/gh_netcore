@@ -1,0 +1,119 @@
+
+4Surfrider.Helper.GetKeyVaultConnectionString(string)B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs
+ 
+(9"0*ò
+0´
+±
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs" (V
+%0string"1System.Environment.GetEnvironmentVariable(string)*"
+System.Environment*
+KEY_VAULT_NAMEt
+r
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (V
+keyVaultNamestring"__id*
+
+%0string‡
+„
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (1
+%1string"__concat*
+
+https://*
+
+keyVaultNamestring…
+‚
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (F
+%2string"__concat*
+
+%1string*
+.vault.azure.netm
+k
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (F
+kvUristring"__id*
+
+%2stringdb
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs* (8
+%3
+System.Uri"
+System.Uri’
+
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs. (1
+
+%4void"System.Uri.Uri(string)*
+
+%3
+System.Uri*
+
+kvUristring›˜
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs: (V+
+%5%Azure.Identity.DefaultAzureCredential"%Azure.Identity.DefaultAzureCredentialÎ
+Ë
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs> (T
+
+%6void"BAzure.Identity.DefaultAzureCredential.DefaultAzureCredential(bool)*-
++
+%5%Azure.Identity.DefaultAzureCredential*
+""©¦
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (W2
+%7,Azure.Security.KeyVault.Secrets.SecretClient",Azure.Security.KeyVault.Secrets.SecretClient¯
+¬
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs ()
+
+%8void"aAzure.Security.KeyVault.Secrets.SecretClient.SecretClient(System.Uri, Azure.Core.TokenCredential)*4
+2
+%7,Azure.Security.KeyVault.Secrets.SecretClient*
+
+%3
+System.Uri*-
++
+%5%Azure.Identity.DefaultAzureCredential»
+¸
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (W6
+client,Azure.Security.KeyVault.Secrets.SecretClient"__id*4
+2
+%7,Azure.Security.KeyVault.Secrets.SecretClientíê
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs$ (@
+%9Azure.Response<T>"jAzure.Security.KeyVault.Secrets.SecretClient.GetSecret(string, string, System.Threading.CancellationToken)*8
+6
+client,Azure.Security.KeyVault.Secrets.SecretClient*
+
+
+secretNamestring*
+""*
+""2=GetSecret(string, string, System.Threading.CancellationToken)¢
+Ÿ
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (@8
+secret.Azure.Security.KeyVault.Secrets.KeyVaultSecret"__id*
+
+%9Azure.Response<T>Ì
+É
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (
+%10string"8Azure.Security.KeyVault.Secrets.KeyVaultSecret.Value.get*:
+8
+secret.Azure.Security.KeyVault.Secrets.KeyVaultSecret"U
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs ( 
+
+%10string*^
+1"Y
+B
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (	
+implicit return:
+
+secretNamestringB"
+Surfrider.Helper

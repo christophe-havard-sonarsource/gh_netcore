@@ -1,0 +1,57 @@
+
+†Surfrider.Common.Extensions.DictionaryExtensions.TryGetValue<T>(System.Collections.Generic.IDictionary<string, object>, string, out T)O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs (("0*Î
+0À½
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs (9
+
+%0bool"RSystem.Collections.Generic.IDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*D
+B
+
+dictionary4System.Collections.Generic.IDictionary<TKey, TValue>*
+
+keystring*
+
+valueObjobject2TryGetValue(TKey, out TValue)*
+1
+2*
+1*
+3
+2*Ä
+3u
+s
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs (#
+%1"__id*
+
+valueObjobjectm
+k
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs (#
+
+valueT"__id*
+
+%1"Y
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs (
+""*Í
+2m
+k
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs (
+
+valueT"__id*
+"""Y
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs (
+""*k
+4"f
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs (	
+implicit return:B
+
+dictionary4System.Collections.Generic.IDictionary<TKey, TValue>:
+keystring:
+
+valueTB4"2
+0Surfrider.Common.Extensions.DictionaryExtensions

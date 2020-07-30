@@ -1,5 +1,5 @@
-”
-M/Users/christophehavard/Sonar/surfrider_fillbidatabase/DictionaryExtension.cs
+Œ
+E/Users/christophehavard/Sonar/Repos/gh_netcore/DictionaryExtension.cs
 
  ,
 
@@ -37,8 +37,8 @@ M/Users/christophehavard/Sonar/surfrider_fillbidatabase/DictionaryExtension.cs
 YYS ]\\ aa (
 YYd g\\' *aa !aa- 0
 	YY| ƒaa% ,
-[[ \\0 3^^ Ô
-@/Users/christophehavard/Sonar/surfrider_fillbidatabase/Helper.cs
+[[ \\0 3^^ Ø
+8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs
 
  
 
@@ -53,8 +53,10 @@ M/Users/christophehavard/Sonar/surfrider_fillbidatabase/DictionaryExtension.cs
  $ *
  ! 
 
- 0™
-C/Users/christophehavard/Sonar/surfrider_fillbidatabase/IDatabase.cs
+ 0
+
+ $‘
+;/Users/christophehavard/Sonar/Repos/gh_netcore/IDatabase.cs
 
  
 
@@ -74,8 +76,8 @@ C/Users/christophehavard/Sonar/surfrider_fillbidatabase/IDatabase.cs
 
 / 4
 
-R V{
-I/Users/christophehavard/Sonar/surfrider_fillbidatabase/OperationStatus.cs
+R Vs
+A/Users/christophehavard/Sonar/Repos/gh_netcore/OperationStatus.cs
 
  
 
@@ -84,8 +86,8 @@ I/Users/christophehavard/Sonar/surfrider_fillbidatabase/OperationStatus.cs
 
  
 
- ‡
-I/Users/christophehavard/Sonar/surfrider_fillbidatabase/PostgreDatabase.cs
+ ÿ
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs
 
 		  (
   !3 C%%3 C
@@ -107,159 +109,49 @@ I/Users/christophehavard/Sonar/surfrider_fillbidatabase/PostgreDatabase.cs
 $$ 00 55 
 %% '' **% )(
 (( ** ++ ,,. 1
-,, %.. %00# )Á
-M/Users/christophehavard/Sonar/surfrider_fillbidatabase/PowerBIFillDatabase.cs
+,, %.. %00# )í
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.cs
 
 
 
- +n
-  ( \\ kk uu 
-„„ 
-˜˜ 
-¤¤ 
-®® 
-¾¾ 
+ +(
+  ( II XX 
+ 0!! HH7 I
 
-! $
+! $
 
-L S
+L S
 
-] c
+] c
 
- $
-     ""/ >
+ (
+ '  !!3 B
+55 /!!! 2Z
+FF" /## $$ %% && '' (( )) ** (
+55< K88 .:: ,;; &(
+77 :: << >> 2
+88 88 886 7::- .;; 
 
-’’" >"" .
+AA" -
+FF7 AGG5 ?(
+GG HH HH II+ 2
 
-33 /(
-33< K66 .88 ,99 &(
-55 88 :: << 2
-66 66 666 788- .99 
+LL" +
+LL5 >OO+ 4TT# ,
+LLP VWW  &
 
-??" -
+LL` c
+NN OO (UU$ .
+OO VV% 0
+QQ XX+ 2F
+RR( ,SS TT UU VV WW XX4 8
 
-OO" ?
+[[/ C
 
-OOH N
-OOW fRRH WP
-RR SS TT UU VV WW XX \\+ 2
-[[( ,\\4 8
-
-dd" ?
-
-ddL [
-gg kk+ 2
-ii( ,jj kk4 8
-
-nn" =
-
-nnJ Y
-qq uu+ 2
-ss( ,tt uu4 8
-
-}}" <
-
-}}I X
-
-€€ 
-„„+ 2$
-
-‚‚( ,
-ƒƒ 
-„„4 8$
-
-’’K Z
-——6 E
-šš' 6$
-
-””( ,
-•• 
-˜˜4 80
-
-–– 
-—— 
-—— 
-˜˜+ 2
-
-" 6
-šš &
-
-C R
-
-   
-¤¤+ 2$
-
-¢¢( ,
-££ 
-¤¤4 8
-
-§§3 I
-
-§§V b
-
-§§l o
-
-ªª 
-®®+ 2$
-
-¬¬( ,
-­­ 
-®®4 8
-
-²²" +$
-
-²²5 >
-µµ+ 4
-ºº# ,
-
-²²P V
-½½  &
-
-²²` c$
-
-´´ 
-µµ (
-»»$ .
-
-µµ 
-¼¼% 0
-
-·· 
-¾¾+ 2T
-
-¸¸( ,
-¹¹ 
-ºº 
-»» 
-¼¼ 
-½½ 
-¾¾4 8
-
-ÁÁ/ C
-
-ÁÁL O$
-
-ÄÄ !
-ØØ  )
-ßß 
-
-ÅÅ 
-ÆÆS ]
-
-ÆÆ 
-ÒÒ* 1
-
-ËË $
-
-ÌÌ 
-ÎÎ 
-ÑÑ) -0
-
-ÏÏ "
-ÑÑ 
-ÒÒ 
-ÓÓ2 5$
-
-ÓÓ# )
-ÖÖ# )
-ØØ. 4
+[[L O
+^^ !mm  )tt 
+__ ``S ]
+`` gg* 1
+aa cc ff) -(
+dd "ff gg hh2 5
+hh# )kk# )mm. 4

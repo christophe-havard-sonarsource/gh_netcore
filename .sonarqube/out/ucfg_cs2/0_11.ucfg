@@ -1,128 +1,138 @@
 
-iSurfrider.PostgreDatabase.ExecuteNonQuery(string, System.Collections.Generic.IDictionary<string, object>)K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (."0*î
-0°
-û
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs3 (C
-%0string"__id*;*9
-Surfrider.PostgreDatabase"
-ConnectionStringstringàÖ
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (D
-%1Npgsql.NpgsqlConnection"Npgsql.NpgsqlConnectionø
-º
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs" (2
+óSurfrider.Jobs.Recurring.PowerBIFillDatabase.InsertLog(System.DateTime, Surfrider.Jobs.Recurring.OperationStatus, Microsoft.Extensions.Logging.ILogger)O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csL" L(+"0*ó
+0ô
+ñ
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csN N()
+%0System.DateTime"System.DateTime.Now.get*"
+System.DateTimeí
+è
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csN N()
 
-%2void"0Npgsql.NpgsqlConnection.NpgsqlConnection(string)*
+finishedOnSystem.DateTime"__id*
+
+%0System.DateTimeˇ
+¸
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csO O(4
+%1System.TimeSpan"<System.DateTime.operator -(System.DateTime, System.DateTime)*"
+System.DateTime*
 
-%1Npgsql.NpgsqlConnection*
-
-%0stringò
-ï
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (D
-connNpgsql.NpgsqlConnection"__id*
+
+finishedOnSystem.DateTime*
+
+	startedOnSystem.DateTimeì
+ê
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csO O(4
+elapsedTimeSystem.TimeSpan"__id*
+
+%1System.TimeSpant
+r
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csQ Q(m
+commandstring"__id*
+""ƒ¡
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csR/ R(O9
+%23System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>ﬂ
+‹
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csR3 R(M
+
+%3void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*;
+9
+%23System.Collections.Generic.Dictionary<TKey, TValue>’
+“
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csR( R(O<
+args4System.Collections.Generic.IDictionary<TKey, TValue>"__id*;
+9
+%23System.Collections.Generic.Dictionary<TKey, TValue>è
+å
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csS S(*
+%4System.Guid"System.Guid.NewGuid()*"
+System.Guid»
+≈
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csS S(+
+
+%5void"__mapSet*>
+<
+args4System.Collections.Generic.IDictionary<TKey, TValue>*
+@id*
+
+%4System.Guid⁄
+◊
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csT T(-
+
+%6void"__mapSet*>
+<
+args4System.Collections.Generic.IDictionary<TKey, TValue>*
+
+@startedOn*
+
+	startedOnSystem.DateTime‹
+Ÿ
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csU U(/
+
+%7void"__mapSet*>
+<
+args4System.Collections.Generic.IDictionary<TKey, TValue>*
+@finishedOn*
 
-%1Npgsql.NpgsqlConnection*
-1*Â
-1ü
-ú
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (
 
-%3void"Npgsql.NpgsqlConnection.Open()*!
-
-connNpgsql.NpgsqlConnectionÅ
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs! (4
-%4Npgsql.NpgsqlCommand"Npgsql.NpgsqlCommand†
-ù
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs% (2
+finishedOnSystem.DateTime¶
+£
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csV% V(=
+%8double" System.TimeSpan.TotalSeconds.get* 
+
+elapsedTimeSystem.TimeSpanÃ
+…
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csV V(>
 
-%5void"$Npgsql.NpgsqlCommand.NpgsqlCommand()*
-
-%4Npgsql.NpgsqlCommandë
-é
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (4
-cmdNpgsql.NpgsqlCommand"__id*
-
-%4Npgsql.NpgsqlCommand*
-2*Ö
-2√
-¿
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs ()
-
-%6void"#Npgsql.NpgsqlCommand.Connection.set*
-
-cmdNpgsql.NpgsqlCommand*!
-
-connNpgsql.NpgsqlConnection¥
-±
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (+
-
-%7void"$Npgsql.NpgsqlCommand.CommandText.set*
-
-cmdNpgsql.NpgsqlCommand*
-
-querystring*
-3*
-3*
-4
-5*Ü
-4º
-π
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (&&
-%8 Npgsql.NpgsqlParameterCollection"#Npgsql.NpgsqlCommand.Parameters.get*
-
-cmdNpgsql.NpgsqlCommand›
-⁄
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs4 (;
-%9string"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*>
+%9void"__mapSet*>
 <
-arg5System.Collections.Generic.KeyValuePair<TKey, TValue>‡
-›
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs= (F
-%10object"?System.Collections.Generic.KeyValuePair<TKey, TValue>.Value.get*>
-<
-arg5System.Collections.Generic.KeyValuePair<TKey, TValue>˘
-ˆ
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (G
-%11Npgsql.NpgsqlParameter"=Npgsql.NpgsqlParameterCollection.AddWithValue(string, object)*(
-&
-%8 Npgsql.NpgsqlParameterCollection*
+args4System.Collections.Generic.IDictionary<TKey, TValue>*
+@elapsedTime*
 
-%9string*
-
-%10object*
-3*Æ
-5—
-Œ
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs! (;+
-%12$System.Threading.Tasks.Task<TResult>"3System.Data.Common.DbCommand.ExecuteNonQueryAsync()*
-
-cmdNpgsql.NpgsqlCommand"U
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (<
-""*
-6*
-7*
-7*
-8*g
-8"b
-K
-A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs   (	
-implicit return:
-querystring:<
-args4System.Collections.Generic.IDictionary<TKey, TValue>B
-Surfrider.PostgreDatabase
+%8double¿
+Ω
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csW W(2
+%10void"__mapSet*>
+<
+args4System.Collections.Generic.IDictionary<TKey, TValue>*	
+@status*
+""À
+»
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csX X(
+%11Surfrider.IDatabase"__id*S*Q.
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase"
+DatabaseSurfrider.IDatabase™ß
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csX X(9+
+%12$System.Threading.Tasks.Task<TResult>"cSurfrider.IDatabase.ExecuteNonQuery(string, System.Collections.Generic.IDictionary<string, object>)*
+
+%11Surfrider.IDatabase*
+
+commandstring*>
+<
+args4System.Collections.Generic.IDictionary<TKey, TValue>2OExecuteNonQuery(string, System.Collections.Generic.IDictionary<string, object>)*
+1*k
+1"f
+O
+E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csY Y(	
+implicit return:
+	startedOnSystem.DateTime:2
+status(Surfrider.Jobs.Recurring.OperationStatus:+
+log$Microsoft.Extensions.Logging.ILoggerB0".
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase

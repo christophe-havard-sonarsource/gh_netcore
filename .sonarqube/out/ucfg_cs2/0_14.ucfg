@@ -1,62 +1,0 @@
-
-BSurfrider.Jobs.Recurring.PowerBIFillDatabase.ExecuteScript(string)O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csF" F(/"0*ô
-
-0²
-¯
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csG G(@
-%0string""System.IO.File.ReadAllText(string)*"
-System.IO.File*
-
-
-scriptPathstring|
-z
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csG G(@
-commandstring"__id*
-
-%0stringº
-·
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csH7 H(I
-%1string"__id*P*N.
-,Surfrider.Jobs.Recurring.PowerBIFillDatabase"
-ListOfCampaignsIdsstring»
-¸
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csH H(J
-%2string"string.Replace(string, string?)*
-
-commandstring*
-@campaign_ids*
-
-%1string|
-z
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csH H(J
-commandstring"__id*
-
-%2stringÊ
-Ç
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csI I(
-%3Surfrider.IDatabase"__id*S*Q.
-,Surfrider.Jobs.Recurring.PowerBIFillDatabase"
-DatabaseSurfrider.IDatabaseðí
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csI I(3*
-%4$System.Threading.Tasks.Task<TResult>"cSurfrider.IDatabase.ExecuteNonQuery(string, System.Collections.Generic.IDictionary<string, object>)*
-
-%3Surfrider.IDatabase*
-
-commandstring*
-""2OExecuteNonQuery(string, System.Collections.Generic.IDictionary<string, object>)*
-1*k
-1"f
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csJ J(	
-implicit return:
-
-scriptPathstringB0".
-,Surfrider.Jobs.Recurring.PowerBIFillDatabase

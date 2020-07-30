@@ -1,119 +1,128 @@
 
-4Surfrider.Helper.GetKeyVaultConnectionString(string)B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs
- 
-(9"0*ò
-0´
+iSurfrider.PostgreDatabase.ExecuteNonQuery(string, System.Collections.Generic.IDictionary<string, object>)K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (."0*”
+0¡
+ž
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs3 (C
+%0string"__id*;*9
+Surfrider.PostgreDatabase"
+ConnectionStringstringˆ…
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (D
+%1Npgsql.NpgsqlConnection"Npgsql.NpgsqlConnection¿
+¼
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs" (2
+
+%2void"0Npgsql.NpgsqlConnection.NpgsqlConnection(string)*
+
+%1Npgsql.NpgsqlConnection*
+
+%0string˜
+•
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (D
+connNpgsql.NpgsqlConnection"__id*
+
+%1Npgsql.NpgsqlConnection*
+1*å
+1Ÿ
+œ
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (
+
+%3void"Npgsql.NpgsqlConnection.Open()*!
+
+connNpgsql.NpgsqlConnection
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs! (4
+%4Npgsql.NpgsqlCommand"Npgsql.NpgsqlCommand 
+
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs% (2
+
+%5void"$Npgsql.NpgsqlCommand.NpgsqlCommand()*
+
+%4Npgsql.NpgsqlCommand‘
+Ž
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (4
+cmdNpgsql.NpgsqlCommand"__id*
+
+%4Npgsql.NpgsqlCommand*
+2*…
+2Ã
+À
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs ()
+
+%6void"#Npgsql.NpgsqlCommand.Connection.set*
+
+cmdNpgsql.NpgsqlCommand*!
+
+connNpgsql.NpgsqlConnection´
 ±
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs" (V
-%0string"1System.Environment.GetEnvironmentVariable(string)*"
-System.Environment*
-KEY_VAULT_NAMEt
-r
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (V
-keyVaultNamestring"__id*
-
-%0string‡
-„
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (1
-%1string"__concat*
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (+
 
-https://*
-
-keyVaultNamestring…
-‚
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (F
-%2string"__concat*
-
-%1string*
-.vault.azure.netm
-k
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (F
-kvUristring"__id*
-
-%2stringdb
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs* (8
-%3
-System.Uri"
-System.Uri’
-
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs. (1
-
-%4void"System.Uri.Uri(string)*
-
-%3
-System.Uri*
+%7void"$Npgsql.NpgsqlCommand.CommandText.set*
+
+cmdNpgsql.NpgsqlCommand*
 
-kvUristring›˜
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs: (V+
-%5%Azure.Identity.DefaultAzureCredential"%Azure.Identity.DefaultAzureCredentialÎ
-Ë
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs> (T
+querystring*
+3*
+3*
+4
+5*†
+4¼
+¹
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (&&
+%8 Npgsql.NpgsqlParameterCollection"#Npgsql.NpgsqlCommand.Parameters.get*
+
+cmdNpgsql.NpgsqlCommandÝ
+Ú
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs4 (;
+%9string"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*>
+<
+arg5System.Collections.Generic.KeyValuePair<TKey, TValue>à
+Ý
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs= (F
+%10object"?System.Collections.Generic.KeyValuePair<TKey, TValue>.Value.get*>
+<
+arg5System.Collections.Generic.KeyValuePair<TKey, TValue>ù
+ö
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (G
+%11Npgsql.NpgsqlParameter"=Npgsql.NpgsqlParameterCollection.AddWithValue(string, object)*(
+&
+%8 Npgsql.NpgsqlParameterCollection*
+
+%9string*
 
-%6void"BAzure.Identity.DefaultAzureCredential.DefaultAzureCredential(bool)*-
-+
-%5%Azure.Identity.DefaultAzureCredential*
-""©¦
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (W2
-%7,Azure.Security.KeyVault.Secrets.SecretClient",Azure.Security.KeyVault.Secrets.SecretClient¯
-¬
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs ()
-
-%8void"aAzure.Security.KeyVault.Secrets.SecretClient.SecretClient(System.Uri, Azure.Core.TokenCredential)*4
-2
-%7,Azure.Security.KeyVault.Secrets.SecretClient*
-
-%3
-System.Uri*-
-+
-%5%Azure.Identity.DefaultAzureCredential»
-¸
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (W6
-client,Azure.Security.KeyVault.Secrets.SecretClient"__id*4
-2
-%7,Azure.Security.KeyVault.Secrets.SecretClientíê
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs$ (@
-%9Azure.Response<T>"jAzure.Security.KeyVault.Secrets.SecretClient.GetSecret(string, string, System.Threading.CancellationToken)*8
-6
-client,Azure.Security.KeyVault.Secrets.SecretClient*
-
-
-secretNamestring*
-""*
-""2=GetSecret(string, string, System.Threading.CancellationToken)¢
-Ÿ
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (@8
-secret.Azure.Security.KeyVault.Secrets.KeyVaultSecret"__id*
-
-%9Azure.Response<T>Ì
-É
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (
-%10string"8Azure.Security.KeyVault.Secrets.KeyVaultSecret.Value.get*:
-8
-secret.Azure.Security.KeyVault.Secrets.KeyVaultSecret"U
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs ( 
-
-%10string*^
-1"Y
-B
-8/Users/christophehavard/Sonar/Repos/gh_netcore/Helper.cs (	
-implicit return:
-
-secretNamestringB"
-Surfrider.Helper
+%10object*
+3*®
+5Ñ
+Î
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs! (;+
+%12$System.Threading.Tasks.Task<TResult>"3System.Data.Common.DbCommand.ExecuteNonQueryAsync()*
+
+cmdNpgsql.NpgsqlCommand"U
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs (<
+""*
+6*
+7*
+7*
+8*g
+8"b
+K
+A/Users/christophehavard/Sonar/Repos/gh_netcore/PostgreDatabase.cs   (	
+implicit return:
+querystring:<
+args4System.Collections.Generic.IDictionary<TKey, TValue>B
+Surfrider.PostgreDatabase

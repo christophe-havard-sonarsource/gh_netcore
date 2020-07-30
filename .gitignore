@@ -264,3 +264,4 @@ __pycache__/
 *.pyc
 __azurite_*.json
 .DS_Store
+.sonarqube

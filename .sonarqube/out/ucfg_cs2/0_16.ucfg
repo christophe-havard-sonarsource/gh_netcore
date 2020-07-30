@@ -1,138 +1,0 @@
-
-óSurfrider.Jobs.Recurring.PowerBIFillDatabase.InsertLog(System.DateTime, Surfrider.Jobs.Recurring.OperationStatus, Microsoft.Extensions.Logging.ILogger)O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csL" L(+"0*ó
-0ô
-ñ
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csN N()
-%0System.DateTime"System.DateTime.Now.get*"
-System.DateTimeí
-è
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csN N()
-
-finishedOnSystem.DateTime"__id*
-
-%0System.DateTimeˇ
-¸
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csO O(4
-%1System.TimeSpan"<System.DateTime.operator -(System.DateTime, System.DateTime)*"
-System.DateTime*
-
-
-finishedOnSystem.DateTime*
-
-	startedOnSystem.DateTimeì
-ê
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csO O(4
-elapsedTimeSystem.TimeSpan"__id*
-
-%1System.TimeSpant
-r
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csQ Q(m
-commandstring"__id*
-""ƒ¡
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csR/ R(O9
-%23System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>ﬂ
-‹
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csR3 R(M
-
-%3void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*;
-9
-%23System.Collections.Generic.Dictionary<TKey, TValue>’
-“
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csR( R(O<
-args4System.Collections.Generic.IDictionary<TKey, TValue>"__id*;
-9
-%23System.Collections.Generic.Dictionary<TKey, TValue>è
-å
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csS S(*
-%4System.Guid"System.Guid.NewGuid()*"
-System.Guid»
-≈
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csS S(+
-
-%5void"__mapSet*>
-<
-args4System.Collections.Generic.IDictionary<TKey, TValue>*
-@id*
-
-%4System.Guid⁄
-◊
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csT T(-
-
-%6void"__mapSet*>
-<
-args4System.Collections.Generic.IDictionary<TKey, TValue>*
-
-@startedOn*
-
-	startedOnSystem.DateTime‹
-Ÿ
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csU U(/
-
-%7void"__mapSet*>
-<
-args4System.Collections.Generic.IDictionary<TKey, TValue>*
-@finishedOn*
-
-
-finishedOnSystem.DateTime¶
-£
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csV% V(=
-%8double" System.TimeSpan.TotalSeconds.get* 
-
-elapsedTimeSystem.TimeSpanÃ
-…
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csV V(>
-
-%9void"__mapSet*>
-<
-args4System.Collections.Generic.IDictionary<TKey, TValue>*
-@elapsedTime*
-
-%8double¿
-Ω
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csW W(2
-%10void"__mapSet*>
-<
-args4System.Collections.Generic.IDictionary<TKey, TValue>*	
-@status*
-""À
-»
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csX X(
-%11Surfrider.IDatabase"__id*S*Q.
-,Surfrider.Jobs.Recurring.PowerBIFillDatabase"
-DatabaseSurfrider.IDatabase™ß
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csX X(9+
-%12$System.Threading.Tasks.Task<TResult>"cSurfrider.IDatabase.ExecuteNonQuery(string, System.Collections.Generic.IDictionary<string, object>)*
-
-%11Surfrider.IDatabase*
-
-commandstring*>
-<
-args4System.Collections.Generic.IDictionary<TKey, TValue>2OExecuteNonQuery(string, System.Collections.Generic.IDictionary<string, object>)*
-1*k
-1"f
-O
-E/Users/christophehavard/Sonar/Repos/gh_netcore/PowerBIFillDatabase.csY Y(	
-implicit return:
-	startedOnSystem.DateTime:2
-status(Surfrider.Jobs.Recurring.OperationStatus:+
-log$Microsoft.Extensions.Logging.ILoggerB0".
-,Surfrider.Jobs.Recurring.PowerBIFillDatabase

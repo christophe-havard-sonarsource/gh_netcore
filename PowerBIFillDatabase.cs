@@ -48,6 +48,11 @@ namespace Surfrider.Jobs.Recurring
 
             Console.WriteLine("-------------------- ALL DONE ---------------------");
 
+            IList<string> list = new List<string>();
+            list.Add("item1");
+            Console.WriteLine(list[0]);
+            Console.WriteLine(list[1]);
+            
         }
 
         private static string FormatGuidsForSQL(IList<Guid> newCampaignsIds)
